@@ -1,0 +1,10 @@
+1. Download (jangan di clone)
+2. arahkan directory project ke CMD
+3. jalankan perintah composer install (untuk mendownload package / depedency)
+4. Kalo belum ada file .env
+    4.1. Copy file .env.example ditempat yg sama dan ubah namanya menjadi .env
+    4.2 Kalo udah ada file .env , lanjut step selanjutnya
+5. jalankan perintah php artisan key:generate (untuk mengisi data APP_KEY pada file .env)
+6. Buat database di phpmyadmin dengan nama sesuai yg ada pada file .env (DB_DATABASE)
+6. jalankan perintah php artisan migrate (untuk membuat database dan isinya)
+7. jalankan perintah php artisan serve (untuk mengakses web)

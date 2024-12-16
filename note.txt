@@ -1,0 +1,13 @@
+- CRUD Katalog (Sisa proses edit) 
+- CRUD Voucher
+- Fix view ukuran gambar 
+- Menu Pesanan (Barista)
+    (+) Fitur filter berdasarkan hari tanggal bulan
+- Menu transaksi
+- Menu laporan keuangan
+-   Menu history transaksi pada user
+    dihapus aja , fungsionalitasnya ada di menu pesanan.
+    atau menu pesanan ganti nama jadi transaksi
+- Error Handler (File handler.php)
+    - Model not found
+
