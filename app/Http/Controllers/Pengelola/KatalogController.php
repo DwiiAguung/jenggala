@@ -166,9 +166,9 @@ class KatalogController extends Controller
         // $produk = $request->gambar->store('public/produk');
         // $namaProduk = explode('/', $produk)[2];
 
-        $gambar = $request->gambar;
+        // $gambar = $request->gambar;
 
-        $namaProduk = 'HusU9a33ZWMuY5C4cPCAMppsI87Hk2xyCPk1lhrk.png';
+        // $namaProduk = 'HusU9a33ZWMuY5C4cPCAMppsI87Hk2xyCPk1lhrk.png';
         
         $request->merge(['gambar' => $namaProduk]);
 
